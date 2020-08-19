@@ -15,20 +15,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loginTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/loginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1123">
-              <caret line="70" column="115" lean-forward="false" selection-start-line="70" selection-start-column="115" selection-end-line="70" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +23,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mina</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WebDriver" />
@@ -55,6 +47,12 @@
         <option value="$PROJECT_DIR$/src/test/java/suporte/Screenshot.java" />
         <option value="$PROJECT_DIR$/src/test/java/suporte/Generator.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/loginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suporte/Web.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/loginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/loginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/homeTest.java" />
       </list>
     </option>
   </component>
@@ -98,6 +96,48 @@
               <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suporte" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,6 +153,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -125,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.loginTest">
+  <component name="RunManager" selected="JUnit.homeTest.testVerProblemas">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -156,6 +201,56 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="homeTest.testVerProblemas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="webdriverjava" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.homeTest" />
+      <option name="METHOD_NAME" value="testVerProblemas" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="homeTest.testminhaVisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="webdriverjava" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.homeTest" />
+      <option name="METHOD_NAME" value="testminhaVisao" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -242,31 +337,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="loginTest.testPreencherlogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="webdriverjava" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTest" />
-      <option name="METHOD_NAME" value="testPreencherlogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -307,18 +377,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.loginTest.testPreencherlogin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.loginTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest.testLoginInvalido" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.loginTest.testLogin" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.loginTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.loginTest.testLoginInvalido" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest.testLogin" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.homeTest.testminhaVisao" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.homeTest.testVerProblemas" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.loginTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.loginTest.testLoginInvalido" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest.testLogin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.loginTest.testPreencherlogin" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.homeTest.testVerProblemas" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.homeTest.testminhaVisao" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest.testLoginInvalido" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.loginTest.testLogin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -339,34 +411,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="loginTest - 2020.08.19 at 04h 08m 18s.xml">
-      <configuration name="loginTest" configurationId="JUnit" />
+    <history-entry file="homeTest_minhaVisao - 2020.08.19 at 07h 21m 40s.xml">
+      <configuration name="homeTest.minhaVisao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="loginTest_testLogin - 2020.08.18 at 13h 03m 29s.xml">
+    <history-entry file="homeTest_minhaVisao - 2020.08.19 at 07h 22m 08s.xml">
+      <configuration name="homeTest.minhaVisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="homeTest_minhaVisao - 2020.08.19 at 07h 23m 46s.xml">
+      <configuration name="homeTest.minhaVisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="homeTest_minhaVisao - 2020.08.19 at 07h 27m 47s.xml">
+      <configuration name="homeTest.minhaVisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="homeTest_testVerProblemas - 2020.08.19 at 07h 33m 37s.xml">
+      <configuration name="homeTest.testVerProblemas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginTest_testLogin - 2020.08.19 at 05h 07m 00s.xml">
       <configuration name="loginTest.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="loginTest_testLogin - 2020.08.18 at 13h 34m 07s.xml">
+    <history-entry file="loginTest_testLogin - 2020.08.19 at 05h 52m 06s.xml">
       <configuration name="loginTest.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 01m 20s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
+    <history-entry file="loginTest_testLogin - 2020.08.19 at 06h 19m 31s.xml">
+      <configuration name="loginTest.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 03m 53s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
+    <history-entry file="loginTest_testLogin - 2020.08.19 at 06h 27m 09s.xml">
+      <configuration name="loginTest.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 06m 48s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 09m 50s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 10m 27s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.18 at 14h 14m 46s.xml">
-      <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_testLoginInvalido - 2020.08.19 at 04h 05m 25s.xml">
+    <history-entry file="loginTest_testLoginInvalido - 2020.08.19 at 06h 27m 43s.xml">
       <configuration name="loginTest.testLoginInvalido" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -390,12 +462,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23164764" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,6 +499,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="method#tearDown#0;class#loginTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -437,6 +512,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="method#tearDown#0;class#loginTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -447,6 +525,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="method#tearDown#0;class#loginTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,6 +622,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -554,12 +638,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/loginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suporte/Web.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="70" column="115" lean-forward="false" selection-start-line="70" selection-start-column="115" selection-end-line="70" selection-end-column="115" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/loginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="method#tearDown#0;class#loginTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/homeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>

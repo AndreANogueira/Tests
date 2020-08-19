@@ -10,12 +10,10 @@ import org.junit.rules.TestName;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.ScreenshotException;
+import pages.LoginPage;
 import suporte.Generator;
 import suporte.Screenshot;
-
-import java.util.concurrent.TimeUnit;
+import suporte.Web;
 
 public class loginTest {
     private WebDriver navegador;
@@ -26,27 +24,20 @@ public class loginTest {
 
     @Before
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\André\\IdeaProjects\\Driver\\chromedriver.exe");
-        navegador = new ChromeDriver();
-        navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-        navegador.get("http://mantis-prova.base2.com.br");
+        navegador = Web.createChrome();
     }
 
     @Test
     public void testLogin(){
 
         //Preenchcer login e senha
-        WebElement name = navegador.findElement(By.name("username"));
-        WebElement password = navegador.findElement(By.name("password"));
+        new LoginPage(navegador)
+                .preecherNome()
+                .preecherPassword();
 
         //Acessar aplicação
-        WebElement entrar = navegador.findElement(By.className("button"));
-
-        name.sendKeys("andre.avelar");
-        password.sendKeys("123456");
-
-        entrar.click();
+        new LoginPage(navegador)
+                .clickEntrar();
 
         //Documentar acesso
         String screnshotName = "C:\\Users\\André\\IdeaProjects\\TestReport\\" + Generator.dataHoraAquirvo() + test.getMethodName() + ".png";
@@ -58,15 +49,13 @@ public class loginTest {
     public void testLoginInvalido(){
 
         //Preenchcer login e senha
-        WebElement name = navegador.findElement(By.name("username"));
-        WebElement password = navegador.findElement(By.name("password"));
+        new LoginPage(navegador)
+                .preecherNome()
+                .preecherPassword();
 
         //Acessar aplicação
-        WebElement entrar = navegador.findElement(By.className("button"));
-
-        name.sendKeys("andre.avela");
-        password.sendKeys("123456");
-        entrar.click();
+        new LoginPage(navegador)
+                .clickEntrar();
 
         String TextoElement = navegador.findElement(By.xpath("/html/body/div[2]/font/font/font/text()")).getText();
         assertEquals("Your account may be disabled or blocked or the username/password you entered is incorrect.", TextoElement);
